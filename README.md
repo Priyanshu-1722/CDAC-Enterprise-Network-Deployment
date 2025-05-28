@@ -87,12 +87,13 @@ Mapped to:
 D:\PUB_SERVER on PARAM
 
 D:\PUB_MEMBER on SHAVAK
+---
 
-🛡️ Group Policies
+## 🛡️ Group Policies
 Login restriction for u2, u3 on CLIENT
 
 FSRM Policies for image restriction and quota limits
-
+---
 🔒 Security
 Role-based access to folders
 
