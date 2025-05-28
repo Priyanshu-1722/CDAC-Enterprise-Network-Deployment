@@ -1,6 +1,6 @@
 # CDAC Enterprise Network Deployment
 
-This project showcases a complete enterprise-level network deployment using **VirtualBox** with a focus on **Windows Server 2022**, **Active Directory**, **DHCP**, **WDS**, **FSRM**, **IIS**, **FTP**, **WSB**, **Data Deduplication**, **Exchange Server**, **VPN**, **NLB**, and **Virtual Hosting**.
+This project showcases a complete enterprise-level network deployment using **VirtualBox** with a focus on **Windows Server 2025**, **Active Directory**, **DHCP**, **WDS**, **FSRM**, **IIS**, **FTP**, **WSB**, **Data Deduplication**, **Exchange Server**, **VPN**, **NLB**, and **Virtual Hosting**.
 
 All virtual machines are configured within an **Internal Network (192.168.100.0/25)**. This environment simulates a real-world corporate IT infrastructure and serves as a hands-on learning lab for Windows Server administration, Active Directory, domain configuration, and enterprise services management.
 
@@ -8,7 +8,7 @@ All virtual machines are configured within an **Internal Network (192.168.100.0/
 
 ## 🖥️ Virtual Machines Configuration
 
-### 1. PARAM - Main Server (Windows Server 2022)
+### 1. PARAM - Main Server (Windows Server 2025)
 - **Hostname**: `PARAM`
 - **IP**: `192.168.100.100`
 - **Domain Controller**: `cdac.local`
@@ -37,7 +37,7 @@ All virtual machines are configured within an **Internal Network (192.168.100.0/
 
 ---
 
-### 2. SHAVAK - Member Server (Windows Server 2022)
+### 2. SHAVAK - Member Server (Windows Server 2025)
 - **Hostname**: `Shavak`
 - **IP**: `192.168.100.101`
 - **RAM**: 4 GB
@@ -62,7 +62,7 @@ All virtual machines are configured within an **Internal Network (192.168.100.0/
 
 ---
 
-### 4. MAILSERVER - Exchange Server (Windows Server 2022)
+### 4. MAILSERVER - Exchange Server (Windows Server 2025)
 - **Hostname**: `MailServer`
 - **IP**: `192.168.100.102`
 - **Accessible via**: `mail.cdac.local` from all machines
