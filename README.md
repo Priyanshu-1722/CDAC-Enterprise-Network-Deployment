@@ -82,3 +82,28 @@ All virtual machines are configured within an **Internal Network (192.168.100.0/
 Both PARAM and SHAVAK expose a unified public folder:
 ```sh
 \\PARAM\PUBLIC
+Mapped to:
+
+D:\PUB_SERVER on PARAM
+
+D:\PUB_MEMBER on SHAVAK
+
+🛡️ Group Policies
+Login restriction for u2, u3 on CLIENT
+
+FSRM Policies for image restriction and quota limits
+
+🔒 Security
+Role-based access to folders
+
+Network segmentation and role-specific access
+
+Backup and data recovery configuration
+
+📅 Backup
+Windows Server Backup is scheduled twice daily
+
+Backup stored on dedicated 50GB disk (Disk 2 on PARAM)
+
+📢 Notes
+This infrastructure is built as part of CDAC’s DITISS curriculum. It aims to simulate a corporate IT setup for real-time training in systems administration, domain services, file server policies, backup strategies, and enterprise service delivery.
