@@ -78,33 +78,50 @@ All virtual machines are configured within an **Internal Network (192.168.100.0/
 
 ---
 
-## 📂 Shared Folders
+### 📂 Shared Folder Mapping
 Both PARAM and SHAVAK expose a unified public folder:
-```sh
-\\PARAM\PUBLIC
-Mapped to:
+-'\\PARAM\PUBLIC'
 
-D:\PUB_SERVER on PARAM
+- **Mapped to:**
+  - `D:\PUB_SERVER` on **PARAM**
+  - `D:\PUB_MEMBER` on **SHAVAK**
 
-D:\PUB_MEMBER on SHAVAK
 ---
 
-## 🛡️ Group Policies
-Login restriction for u2, u3 on CLIENT
+### 🛡️ Group Policies
 
-FSRM Policies for image restriction and quota limits
+- Login restriction for `u2`, `u3` on **CLIENT**
+- FSRM policies for:
+  - Image file restrictions (e.g., blocking .jpg, .png, etc.)
+  - Quota limits of 200MB for users
+
 ---
-🔒 Security
-Role-based access to folders
 
-Network segmentation and role-specific access
+### 🔒 Security
 
-Backup and data recovery configuration
+- Role-based access to shared folders
+- Network segmentation for traffic isolation
+- Role-specific access permissions
+- Backup and data recovery mechanisms in place
 
-📅 Backup
-Windows Server Backup is scheduled twice daily
+---
 
-Backup stored on dedicated 50GB disk (Disk 2 on PARAM)
+### 📅 Backup
 
-📢 Notes
-This infrastructure is built as part of CDAC’s DITISS curriculum. It aims to simulate a corporate IT setup for real-time training in systems administration, domain services, file server policies, backup strategies, and enterprise service delivery.
+- **Windows Server Backup** scheduled **twice daily** (7:00 AM and 7:00 PM)
+- Backups stored on a **dedicated 50GB disk** (Disk 2 on **PARAM**)
+
+---
+
+### 📢 Notes
+
+This infrastructure was developed as part of **CDAC’s DITISS** curriculum. It is designed to simulate a real-world corporate IT environment and provides hands-on experience in:
+
+- System administration  
+- Domain and directory services  
+- File server and storage management  
+- Backup and disaster recovery planning  
+- Enterprise service deployment  
+
+Ideal for building foundational skills required in **IT infrastructure** and **network administration** roles.
+
